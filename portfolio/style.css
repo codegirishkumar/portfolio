@@ -1,0 +1,160 @@
+ 
+ body{
+    margin:0;
+    background: pink;
+ }
+ 
+ 
+ .navbar  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:pink;
+  
+}
+
+.navbar-left{
+    padding-left:20px;
+   
+
+}
+.navbar-left:hover {
+    color:rgb(22, 219, 22);
+
+}
+
+
+.navbar-right {
+   padding-right: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar-right {
+    color:rgb(26, 215, 26);
+
+}
+
+.a-element{
+    padding:10px;
+   
+    margin:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight: bold;
+
+
+
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:85vh;
+   
+
+}
+.home-left{
+    widht:50vw;
+    text-align: right;
+    padding-left:100px;
+
+
+}
+.home-right{
+    width:50vw;
+    padding-left:200px;
+    
+
+}
+.home-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-size:10px;
+
+
+}
+.home-p{
+    font-family:'Times New Roman', Times, serif
+    font-size:10px;
+
+}
+.services{
+    padding:50px;
+    text-align: center;
+    text-size:50px;
+
+}
+.ser-h1{
+    font-family: bold;
+   color:rgb(20, 201, 35);
+   letter-spacing: 4px;
+   font-size:30px;
+
+
+  
+}
+.services-sub-cotainer{
+    display:flex;
+    flex-direction: row;
+
+}
+.services-card{
+    border:2px green solid;
+    margin:20px;
+    padding:20px;
+    widht:400px;
+
+    
+
+}
+.sc-h1{
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+
+}
+.sc-p{
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+}
+.card-h1{
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+}
+.sc-card{
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+    
+}
+.contact{
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+
+}
+.contact-info{
+    font-family:'Montserrat',sans-serif;
+
+
+    
+}
+
+.test-logo{
+    height:50px;
+}
+.social-icon-image{
+    height:50px;
+}
+.social-icon-image{
+    height:50px;
+    padding:20px;
+
+}
+
+
+
+
+
+
